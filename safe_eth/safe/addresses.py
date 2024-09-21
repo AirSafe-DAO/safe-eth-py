@@ -1781,6 +1781,9 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
             "1.3.0+L2",
         ),  # v1.3.0+L2
     ],
+    EthereumNetwork.AIRDAO_TESTNET: [
+        ("0xc0cFF0D4C6b1EC02EEF42D831D1C10f75759EfE0", 1778645, "1.4.1") #1.4.1
+    ]
 }
 
 PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
@@ -2669,4 +2672,7 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
         ("0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67", 14783667),  # v1.4.1
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 14907808),  # v1.3.0
     ],
+    EthereumNetwork.AIRDAO_TESTNET: [
+        ("0x3e030482A27371eF35CCc5a60Cf38A888CFe985b", 1778645) #1.4.1
+    ]
 }
